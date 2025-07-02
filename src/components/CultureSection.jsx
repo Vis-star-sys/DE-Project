@@ -2,11 +2,14 @@
 
 import { useEffect, useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function CultureSection() {
   const [cultureItems, setCultureItems] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+
+  
 
   useEffect(() => {
     const fetchCulture = async () => {
@@ -24,8 +27,10 @@ export default function CultureSection() {
     fetchCulture();
   }, []);
 
-  if (loading) return <div className="text-center py-10">Loading culture...</div>;
-  if (error) return <div className="text-center py-10 text-red-500">{error}</div>;
+  if (loading)
+    return <div className="text-center py-10">Loading culture...</div>;
+  if (error)
+    return <div className="text-center py-10 text-red-500">{error}</div>;
 
   return (
     <section
@@ -69,9 +74,11 @@ export default function CultureSection() {
               </div>
 
               <div className="px-4 pb-4">
-                <button className="mt-2 w-full px-4 py-2 bg-orange-600 hover:bg-orange-700 text-white text-sm font-medium rounded-md shadow transition">
-                  Explore
-                </button>
+                <Link href={`/cultures/${item._id}`}>
+                  <button className="mt-2 w-full px-4 py-2 bg-orange-600 hover:bg-orange-700 text-white text-sm font-medium rounded-md shadow transition">
+                    Explore
+                  </button>
+                </Link>
               </div>
             </div>
           ))}

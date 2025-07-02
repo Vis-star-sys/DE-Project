@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Menu, X, UserCircle } from "lucide-react";
+import { Menu, X, UserCircle, Home } from "lucide-react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useAuth } from "@/context/AuthContext";
@@ -40,6 +40,7 @@ export default function Navbar() {
     { label: "My Bookings", href: "/my-bookings" },
   ];
 
+  
   const navLinks = isLoggedIn ? userLinks : guestLinks;
 
   return (
@@ -85,7 +86,7 @@ export default function Navbar() {
               </button>
               {/* Dropdown */}
               <div className="absolute right-0 mt-2 w-40 bg-white dark:bg-gray-800 rounded-md shadow-lg opacity-0 group-hover:opacity-100 group-hover:visible invisible transition duration-200 z-50">
-                <Link href="/profile/edit">
+                <Link href="/profile">
                   <div className="px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 cursor-pointer">
                     Edit Profile
                   </div>

@@ -7,26 +7,47 @@ export default function MonumentsSection() {
   const [monuments, setMonuments] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [user, setUser] = useState(undefined); // undefined: loading, null: guest, object: logged in
 
   useEffect(() => {
-    const fetchMonuments = async () => {
+    const fetchUserAndMonuments = async () => {
       try {
-        const res = await fetch("/api/monuments");
-        if (!res.ok) throw new Error("Failed to fetch monuments");
-        const data = await res.json();
-        setMonuments(data);
+        // Check user login status
+        const res = await fetch("/api/auth/me", { cache: "no-store" });
+
+        if (res.ok) {
+          const userData = await res.json();
+          setUser(userData); // Logged-in user
+
+          // Fetch full monuments list
+          const monumentRes = await fetch("/api/monuments");
+          const data = await monumentRes.json();
+          setMonuments(data);
+        } else {
+          setUser(null); // Guest user
+
+          // Fetch only 4 monuments
+          const monumentRes = await fetch("/api/monuments?limit=4");
+          const data = await monumentRes.json();
+          setMonuments(data);
+        }
       } catch (err) {
-        setError(err.message);
+        setError("Failed to fetch monuments.");
       } finally {
         setLoading(false);
       }
     };
 
-    fetchMonuments();
+    fetchUserAndMonuments();
   }, []);
 
-  if (loading) return <div className="text-center py-10">Loading...</div>;
-  if (error) return <div className="text-center py-10 text-red-500">{error}</div>;
+  if (loading) {
+    return <div className="text-center py-10 text-gray-600">Loading monuments...</div>;
+  }
+
+  if (error) {
+    return <div className="text-center py-10 text-red-500">{error}</div>;
+  }
 
   return (
     <section
@@ -41,11 +62,12 @@ export default function MonumentsSection() {
           Discover iconic landmarks that represent India’s rich cultural heritage and glorious history.
         </p>
 
+        {/* Monument Grid */}
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {monuments.map((monument) => (
             <div
               key={monument._id}
-              className="group rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 bg-white dark:bg-gray-900"
+              className="group rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition bg-white dark:bg-gray-900"
             >
               <img
                 src={monument.image}
@@ -56,9 +78,7 @@ export default function MonumentsSection() {
                 <h3 className="text-xl font-semibold text-orange-600 group-hover:text-orange-700">
                   {monument.name}
                 </h3>
-                <p className="text-sm text-gray-600 dark:text-gray-300">
-                  {monument.location}
-                </p>
+                <p className="text-sm text-gray-600 dark:text-gray-300">{monument.location}</p>
                 <Link href={`/monuments/${monument._id}`}>
                   <button className="mt-3 px-4 py-2 bg-orange-600 text-white text-sm rounded hover:bg-orange-700 transition">
                     Explore
@@ -68,6 +88,20 @@ export default function MonumentsSection() {
             </div>
           ))}
         </div>
+
+        {/* Login Prompt for Guests */}
+        {user === null && (
+          <div className="mt-12 text-center">
+            <p className="text-gray-600 dark:text-gray-400 mb-4 text-lg">
+              🔐 You’re seeing a preview. Login to explore all monuments!
+            </p>
+            <Link href="/auth/login">
+              <button className="px-6 py-2 bg-orange-500 text-white font-semibold rounded-xl hover:bg-orange-600 transition">
+                Login to View More
+              </button>
+            </Link>
+          </div>
+        )}
       </div>
     </section>
   );

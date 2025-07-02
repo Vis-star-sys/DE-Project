@@ -51,7 +51,7 @@ export default function Footer() {
       </div>
 
       <div className="mt-10 text-center text-sm border-t pt-4 border-gray-300 dark:border-gray-700">
-        &copy; {new Date().getFullYear()} Heritage India. All rights reserved.
+        &copy; {new Date().getFullYear()} Heritage India. All rights reserved <span className="text-red-500">&#x2764;</span>	By Vishal Suthar.
       </div>
     </footer>
   );
