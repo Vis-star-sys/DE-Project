@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "685ab461f9cce2d4c5f867ef"
+  },
+  "title": "Garba Dance",
+  "description": "Garba is a traditional dance form from Gujarat, India, usually performed during the Navratri festival. Dancers move in a circular pattern around a lamp or an image of the goddess Durga.",
+  "image": "https://i.pinimg.com/736x/cc/44/90/cc4490e035c401118f55cafc5c6a7cdf.jpg",
+  "history": "Garba originated in the state of Gujarat and has been practiced for centuries as a devotional dance dedicated to the Hindu goddess Durga. The term 'Garba' comes from the Sanskrit word 'Garbha', meaning womb, symbolizing life and fertility.",
+  "significance": "Garba is more than just a dance—it's a spiritual celebration. The circular movements represent the cycle of life, and it is performed to honor the divine feminine energy. It brings communities together and is a key cultural identity of Gujarat.",
+  "gallery": [
+    "/images/culture/garba1.jpg",
+    "/images/culture/garba2.jpg",
+    "/images/culture/garba3.jpg"
+  ]
+},
+{
+  "_id": {
+    "$oid": "685ab488f9cce2d4c5f867f0"
+  },
+  "title": "Kathakali",
+  "description": "Kathakali is a classical Indian dance-drama originating from Kerala, known for its elaborate costumes, colorful makeup, and expressive gestures. It combines dance, music, and acting to tell stories from Indian epics like the Mahabharata and Ramayana.",
+  "image": "https://i.pinimg.com/736x/11/a2/f5/11a2f5b058a66acda416c26f2f779290.jpg",
+  "history": "Kathakali evolved in the 17th century as a temple art form and later gained popularity in theatres. It is deeply rooted in ancient Sanskrit texts like Natya Shastra and has been preserved and passed on through generations of dedicated artists.",
+  "significance": "Kathakali represents the spiritual and artistic heritage of Kerala. Its vivid expressions and complex hand gestures (mudras) make it a powerful storytelling medium that transcends language barriers.",
+  "gallery": [
+    "/images/culture/kathakali1.jpg",
+    "/images/culture/kathakali2.jpg",
+    "/images/culture/kathakali3.jpg"
+  ]
+},
+{
+  "_id": {
+    "$oid": "685ab488f9cce2d4c5f867f1"
+  },
+  "title": "Bhangra",
+  "description": "Bhangra is a vibrant and energetic folk dance from Punjab, originally performed to celebrate harvest festivals like Vaisakhi. It features powerful movements, high jumps, and lively beats from the dhol drum.",
+  "image": "https://i.pinimg.com/736x/67/56/3f/67563f62dbe7813744a20c66603259ef.jpg",
+  "history": "Bhangra has its origins in agricultural celebrations and gradually evolved into a symbol of Punjabi culture. It gained international recognition in the 20th century and is now performed at weddings, cultural events, and dance competitions globally.",
+  "significance": "Bhangra celebrates joy, community spirit, and cultural pride. It’s not just a dance but a form of cultural expression that unites people with its infectious energy and rhythm.",
+  "gallery": [
+    "/images/culture/bhangra1.jpg",
+    "/images/culture/bhangra2.jpg",
+    "/images/culture/bhangra3.jpg"
+  ]
+},
+{
+  "_id": {
+    "$oid": "685ab488f9cce2d4c5f867f2"
+  },
+  "title": "Durga Puja",
+  "description": "Durga Puja is a major Hindu festival especially celebrated in West Bengal, Assam, and other eastern states of India. It honors the goddess Durga's victory over the demon Mahishasura, symbolizing the triumph of good over evil.",
+  "image": "https://i.pinimg.com/736x/00/6b/c8/006bc86155b1619c42958ce655a0b3e7.jpg",
+  "history": "The festival has been celebrated for centuries and was patronized by kings and zamindars. In the 18th century, it became a public celebration, with community pandals and processions gaining popularity.",
+  "significance": "Durga Puja is more than a religious event—it’s a social and cultural festival that brings communities together through art, music, dance, and culinary traditions. It reflects devotion, creativity, and the power of the divine feminine.",
+  "gallery": [
+    "/images/culture/durga1.jpg",
+    "/images/culture/durga2.jpg",
+    "/images/culture/durga3.jpg"
+  ]
+}]
