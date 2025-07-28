@@ -1,0 +1,83 @@
+[{
+  "_id": {
+    "$oid": "6854f063966c57f70cf70f98"
+  },
+  "name": "Taj Mahal",
+  "location": "Agra, Uttar Pradesh",
+  "description": "The Taj Mahal is a white marble mausoleum built by Mughal emperor Shah Jahan in memory of his wife Mumtaz Mahal.",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Taj_Mahal_%28Edited%29.jpeg",
+  "timings": "6:00 AM - 6:30 PM (Closed on Fridays)",
+  "entryFee": "₹50 (Indian), ₹1100 (Foreigners)",
+  "established": "1632 AD",
+  "architect": "Ustad Ahmad Lahauri",
+  "architectureStyle": "Mughal",
+  "history": "The Taj Mahal was commissioned in 1631 and completed in 1653. It is a UNESCO World Heritage Site.",
+  "significance": "Symbol of love, known for its symmetry and beauty.",
+  "gallery": [
+    "https://imgs.search.brave.com/rkkkOiNsl-RL2Wr3fFnIzKsMqPkohs5dJI65suJ3lQY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNTcz/ODA2ODI1L3Bob3Rv/L3Bob3RvZ3JhcGgt/dGFqLW1haGFsLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz1Q/SUFGdVMxc3p5cGFS/SlM3SVNhWVEweTB2/VlZaM0hOUjZabHpx/b3E0eWNnPQ",
+    "https://imgs.search.brave.com/tKq-KI2sSmIIJm0LVFUmJHJfpqeQNjXIGsiwPQ-Cl4Q/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTU4/ODk4NTM3L3Bob3Rv/L2V0ZXJuYWwtZ2xv/dy5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9d1daemlKMi02/Vnl6RS1lTDRSSUJp/c1doOFlFcmt5a1VF/bmVjUGRYQ0RaQT0",
+    "https://imgs.search.brave.com/GqEfFp-nA6c5LTJjcFyadeRQP6gVI7sDLUInCiATZlQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9yZW5k/ZXIuZmluZWFydGFt/ZXJpY2EuY29tL2lt/YWdlcy9pbWFnZXMt/cHJvZmlsZS1mbG93/LzQwMC9pbWFnZXMt/bWVkaXVtLWxhcmdl/LTUvdGFqLW1haGFs/LXJpY2gtam9uZXMt/cGhvdG9ncmFwaHku/anBn",
+    "https://imgs.search.brave.com/C_FpNn0r-Dktg-9GM17M5aqGc6EMdvQtuzpJJgT7bAw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9yZW5k/ZXIuZmluZWFydGFt/ZXJpY2EuY29tL2lt/YWdlcy9pbWFnZXMt/cHJvZmlsZS1mbG93/LzQwMC9pbWFnZXMv/YXJ0d29ya2ltYWdl/cy9tZWRpdW1sYXJn/ZS8yL3Rhai1tYWhh/bC1hZ3JhLWpvZXJn/LXJlaWNoZWwuanBn"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6854f14a966c57f70cf70f99"
+  },
+  "name": "Qutub Minar",
+  "location": "Delhi",
+  "description": "Qutub Minar is the tallest brick minaret in the world and an important example of Indo-Islamic architecture.",
+  "image": "https://imgs.search.brave.com/p_eiFfq05oRyIeLEBookd8MzCqDz49oJ_cciJyq8ikg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/YW5jaWVudC1vcmln/aW5zLm5ldC9zaXRl/cy9kZWZhdWx0L2Zp/bGVzL3N0eWxlcy9h/cnRpY2xlX2ltYWdl/L3B1YmxpYy9maWVs/ZC9pbWFnZS9RdXRi/LU1pbmFyLmpwZz9p/dG9rPVRfZFhMX3U3",
+  "timings": "7:00 AM - 5:00 PM",
+  "entryFee": "₹30 (Indian), ₹500 (Foreigners)",
+  "established": "1192 AD",
+  "architect": "Qutb-ud-din Aibak",
+  "architectureStyle": "Afghan architecture",
+  "history": "Construction started by Qutb-ud-din Aibak and completed by Iltutmish.",
+  "significance": "Symbolizes the beginning of Muslim rule in India.",
+  "gallery": [
+    "https://upload.wikimedia.org/wikipedia/commons/f/f5/Qutub_Minar_Delhi_India.jpg"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6854f17e966c57f70cf70f9a"
+  },
+  "name": "Hawa Mahal",
+  "location": "Jaipur, Rajasthan",
+  "description": "Known as the Palace of Winds, it was built so royal ladies could observe street festivals without being seen.",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/4/41/East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg",
+  "timings": "9:00 AM - 4:30 PM",
+  "entryFee": "₹50 (Indian), ₹200 (Foreigners)",
+  "established": "1799 AD",
+  "architect": "Lal Chand Ustad",
+  "architectureStyle": "Rajput",
+  "history": "Commissioned by Maharaja Sawai Pratap Singh, part of the City Palace.",
+  "significance": "Its unique façade has 953 small windows (jharokhas).",
+  "gallery": [
+    "https://imgs.search.brave.com/7kv5H1XcZGCFlcvXYgOwQ_4fDG6TWaiH5h-2Hb0pEGo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDQ1NTUx/MTEuanBn",
+    "https://imgs.search.brave.com/eDOM7UidIKGCI2On0Rw_B4Lvl2waq7AsRYCD7yAb5dw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAyMi8w/MS8yOC8wOC8xMy9o/YXdhLW1haGFsLTY5/NzM5MzhfNjQwLmpw/Zw",
+    "https://imgs.search.brave.com/FuOQBwb6dgdKjfWj_OIc1HcMLUf5rpGAXEnc1-B9wwQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/Y3JlYXRlLnZpc3Rh/LmNvbS9hcGkvbWVk/aWEvc21hbGwvMTA5/NzQ4MDc0L3N0b2Nr/LXBob3RvLWhhd2Et/bWFoYWwtdGhlLXBh/bGFjZS1vZi13aW5k/cy1qYWlwdXItcmFq/YXN0aGFuLWluZGlh"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6855744cd5dae12ed70b9307"
+  },
+  "name": "Golden Temple",
+  "location": "Amritsar, Punjab, India",
+  "description": "The Golden Temple, also known as Harmandir Sahib, is a revered Sikh gurdwara and a symbol of equality and human brotherhood. The temple is built around a man-made pool that was completed by Guru Ram Das in 1577.",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/The_Golden_Temple_of_Amrithsar_7.jpg/1920px-The_Golden_Temple_of_Amrithsar_7.jpg",
+  "timings": "4:00 AM – 11:00 PM",
+  "entryFee": "Free",
+  "established": "1581",
+  "architect": "Guru Arjan Dev",
+  "architectureStyle": "Sikh Architecture with Indo-Islamic elements",
+  "history": "Construction of the Golden Temple began in 1581 under the guidance of Guru Arjan Dev, the fifth Sikh Guru. The temple was completed in 1604 and has since been the most important pilgrimage site in Sikhism. It has been rebuilt multiple times due to invasions and destruction.",
+  "significance": "The Golden Temple is a symbol of spiritual and historical traditions of the Sikhs. It embodies humility, service (langar), and equality — all are welcome regardless of caste, creed, or religion.",
+  "gallery": [
+    "https://imgs.search.brave.com/EF3X3tYqpSyf8cExI2cnLSwhP8_-0tAzWccmtoX8OaQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2Y5L2I5/L2MxL2Y5YjljMTM1/NGMzZGRiMTM3ZmMz/NGRhZDM2YTBiMTg3/LmpwZw",
+    "https://imgs.search.brave.com/EXQth94esdrvH30n45yEFJEDpdWYOz-B0vvGnxsFJ48/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAwLzk3LzI3Lzc0/LzM2MF9GXzk3Mjc3/NDk5X05NQUtGSWxQ/ZHJNcEk5TTlmcGpw/Yk5hQ05rSmVRVnBl/LmpwZw",
+    "https://imgs.search.brave.com/3x4E5iROxhk1bgp1uZXKq5oR68yJTe_ya-uAYm5BVN8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNTIx/OTMzMjYwL3Bob3Rv/L2hhcm1hbmRpci1z/YWhpYi10ZW1wbGUt/aW4tYW1yaXRzYXIt/aW5kaWEuanBnP3M9/NjEyeDYxMiZ3PTAm/az0yMCZjPU1EYjZB/YlhLYmxtck5iWmJT/aWxLbGZoRlVnaXNi/WWxObExCRy1ITVZD/RDA9"
+  ]
+}]
