@@ -1,0 +1,18 @@
+[{
+  "_id": {
+    "$oid": "68556e9b4ed6359fd561a626"
+  },
+  "image": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Taj_Mahal_%28Edited%29.jpeg"
+},
+{
+  "_id": {
+    "$oid": "68556e9b4ed6359fd561a627"
+  },
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/94/The_Golden_Temple_of_Amrithsar_7.jpg"
+},
+{
+  "_id": {
+    "$oid": "68556e9b4ed6359fd561a628"
+  },
+  "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Delhi_fort.jpg"
+}]
